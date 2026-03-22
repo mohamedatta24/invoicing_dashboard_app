@@ -19,7 +19,7 @@ class CustomDawar extends StatelessWidget {
             hasScrollBody: false,
             child: Column(
               children: const [
-                CustomDawar(),
+                CustomUserItem(),
                 SizedBox(height: 16.0),
                 DawarItemListView(),
                 Expanded(child: SizedBox(height: 20)),
