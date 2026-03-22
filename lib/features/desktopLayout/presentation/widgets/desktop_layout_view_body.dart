@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:invoicing_dashboard/features/Home/presentation/widgets/all_expenses.dart';
 import 'package:invoicing_dashboard/features/Home/presentation/widgets/custom_dawar.dart';
 
 class DesktopLayoutViewBody extends StatelessWidget {
@@ -8,8 +9,9 @@ class DesktopLayoutViewBody extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const Expanded(flex: 1, child: CustomDawar()),
-        Expanded(flex: 3, child: Container(color: Color(0xfffdeedd))),
+        const Expanded(flex: 2, child: CustomDawar()),
+        const SizedBox(width: 20.0),
+        Expanded(flex: 3, child: AllExpenses()),
       ],
     );
   }

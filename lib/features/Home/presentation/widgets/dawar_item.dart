@@ -20,7 +20,7 @@ class DawarItem extends StatelessWidget {
         dawarItemModel.title,
         style: TextStyle(
           fontSize: 16.0,
-          fontWeight: FontWeight.bold,
+          fontWeight: selectActive ?  FontWeight.bold : FontWeight.w400,
           color: selectActive
               ? const Color(0xff4EB7F2)
               : const Color(0xff064061),
