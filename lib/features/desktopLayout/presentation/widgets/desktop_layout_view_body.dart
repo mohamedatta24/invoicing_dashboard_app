@@ -11,7 +11,7 @@ class DesktopLayoutViewBody extends StatelessWidget {
       children: [
         const Expanded(flex: 2, child: CustomDawar()),
         const SizedBox(width: 20.0),
-        Expanded(flex: 3, child: AllExpenses()),
+        const Expanded(flex: 3, child: AllExpenses()),
       ],
     );
   }

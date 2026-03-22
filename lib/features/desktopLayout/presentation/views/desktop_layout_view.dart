@@ -3,7 +3,6 @@ import 'package:invoicing_dashboard/features/desktopLayout/presentation/widgets/
 
 class DesktopLayoutView extends StatelessWidget {
   const DesktopLayoutView({super.key});
-   
 
   @override
   Widget build(BuildContext context) {

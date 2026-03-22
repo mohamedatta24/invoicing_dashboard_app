@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:invoicing_dashboard/features/Home/presentation/widgets/all_expenses_header.dart';
-import 'package:invoicing_dashboard/features/Home/presentation/widgets/all_expenses_item.dart';
+import 'package:invoicing_dashboard/features/Home/presentation/widgets/all_expenses_item_list_view.dart';
 
 class AllExpenses extends StatelessWidget {
   const AllExpenses({super.key});
@@ -14,10 +14,10 @@ class AllExpenses extends StatelessWidget {
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
       ),
       child: Column(
-        children: [
-          const AllExpensesHeader(),
-          const SizedBox(height: 16.0),
-          const AllExpensesItem(),
+        children: const [
+          AllExpensesHeader(),
+          SizedBox(height: 16.0),
+          AllExpensesItemListView(),
         ],
       ),
     );
