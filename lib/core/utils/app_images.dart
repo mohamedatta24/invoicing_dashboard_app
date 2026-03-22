@@ -2,7 +2,13 @@
 class Assets {
   Assets._();
 
+  static const String imagesBalanceIcon = "assets/images/balance_icon.svg";
+
   static const String imagesDashboardIcon = "assets/images/dashboard_icon.svg";
+
+  static const String imagesExpensesIcon = "assets/images/expenses_icon.svg";
+
+  static const String imagesIncomeIcon = "assets/images/income_icon.svg";
 
   static const String imagesLogoutAccountIcon =
       "assets/images/logout_account_icon.svg";
