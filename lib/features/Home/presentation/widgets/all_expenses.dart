@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:invoicing_dashboard/core/widgets/custom_container.dart';
 import 'package:invoicing_dashboard/features/Home/presentation/widgets/all_expenses_header.dart';
 import 'package:invoicing_dashboard/features/Home/presentation/widgets/all_expenses_item_list_view.dart';
 
@@ -7,12 +8,7 @@ class AllExpenses extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      padding: const EdgeInsets.all(20),
-      decoration: ShapeDecoration(
-        color: Colors.white,
-        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
-      ),
+    return CustomContainer(
       child: Column(
         children: const [
           AllExpensesHeader(),

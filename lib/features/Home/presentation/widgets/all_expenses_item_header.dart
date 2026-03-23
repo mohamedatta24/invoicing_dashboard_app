@@ -1,5 +1,3 @@
-// ignore_for_file: deprecated_member_use
-
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 
@@ -25,7 +23,7 @@ class AllExpensesItemHeader extends StatelessWidget {
             borderRadius: BorderRadius.circular(50.0),
           ),
           padding: const EdgeInsets.all(14.0),
-          child: SvgPicture.asset(
+          child:  SvgPicture.asset(
             image,
             color: selectIndex
                 ? const Color(0xffFFFFFF)
