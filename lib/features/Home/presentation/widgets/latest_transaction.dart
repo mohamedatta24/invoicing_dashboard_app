@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:invoicing_dashboard/features/Home/presentation/widgets/custom_user_item.dart';
 import 'package:invoicing_dashboard/features/Home/presentation/widgets/latest_transaction_list_view.dart';
 
 class LatestTransaction extends StatelessWidget {
@@ -9,7 +8,7 @@ class LatestTransaction extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
+      children: const [
         Text(
           "Latest Transaction",
           style: TextStyle(
@@ -24,4 +23,3 @@ class LatestTransaction extends StatelessWidget {
     );
   }
 }
-
