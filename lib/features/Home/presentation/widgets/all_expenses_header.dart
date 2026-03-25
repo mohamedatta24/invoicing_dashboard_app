@@ -8,7 +8,7 @@ class AllExpensesHeader extends StatelessWidget {
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
-        Text(
+        const Text(
           "All Expenses",
           style: TextStyle(
             fontSize: 20.0,
@@ -20,7 +20,7 @@ class AllExpensesHeader extends StatelessWidget {
         Container(
           padding: const EdgeInsets.all(12),
           decoration: ShapeDecoration(
-            color: Colors.white,
+            color: const Color(0xffffffff),
             shape: RoundedRectangleBorder(
               side: BorderSide(width: 1, color: const Color(0xFFF1F1F1)),
               borderRadius: BorderRadius.circular(12),
@@ -28,20 +28,20 @@ class AllExpensesHeader extends StatelessWidget {
           ),
           child: Row(
             children: [
-              Text(
+              const Text(
                 'Monthly',
                 style: TextStyle(
-                  color: const Color(0xFF064060),
+                  color: Color(0xFF064060),
                   fontSize: 16,
                   fontWeight: FontWeight.w500,
                 ),
               ),
-              SizedBox(width: 18.0),
+              const SizedBox(width: 18.0),
               Transform.rotate(
                 angle: -1.57,
                 child: Icon(
                   Icons.arrow_back_ios_sharp,
-                  color: Color(0xff064061),
+                  color: const Color(0xff064061),
                 ),
               ),
             ],

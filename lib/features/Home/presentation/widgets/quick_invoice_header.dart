@@ -22,9 +22,9 @@ class QuickInvoiceHeader extends StatelessWidget {
           height: 48,
           decoration: BoxDecoration(
             shape: BoxShape.circle,
-            color: Color(0xffFAFAFA),
+            color: const Color(0xffFAFAFA),
           ),
-          child: Icon(Icons.add, color: Color(0xff4EB7F2)),
+          child: Icon(Icons.add, color: const Color(0xff4EB7F2)),
         ),
       ],
     );

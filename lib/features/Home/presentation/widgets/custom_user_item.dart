@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:invoicing_dashboard/features/Home/data/models/user_item_model.dart';
+import 'package:invoicing_dashboard/features/Home/data/models/user_model.dart';
 
 class CustomUserItem extends StatelessWidget {
   const CustomUserItem({super.key, required this.userItemModel});
 
-  final UserItemModel userItemModel;
+  final UserModel userItemModel;
   @override
   Widget build(BuildContext context) {
     return Container(

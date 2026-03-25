@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:invoicing_dashboard/core/widgets/custom_container.dart';
 import 'package:invoicing_dashboard/features/Home/presentation/widgets/dots_indicator.dart';
 import 'package:invoicing_dashboard/features/Home/presentation/widgets/my_cards_page_view.dart';
 
@@ -33,24 +32,22 @@ class _MyCardSectionState extends State<MyCardSection> {
 
   @override
   Widget build(BuildContext context) {
-    return CustomContainer(
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          const Text(
-            "My Card",
-            style: TextStyle(
-              fontWeight: FontWeight.w600,
-              fontSize: 20.0,
-              color: Color(0xff064061),
-            ),
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        const Text(
+          "My Card",
+          style: TextStyle(
+            fontWeight: FontWeight.w600,
+            fontSize: 20.0,
+            color: Color(0xff064061),
           ),
-          const SizedBox(height: 20.0),
-          MyCardsPageView(controller: pageController),
-          const SizedBox(height: 16.0),
-          DotsIndicator(currentIndex: currentIndex),
-        ],
-      ),
+        ),
+        const SizedBox(height: 20.0),
+        MyCardsPageView(controller: pageController),
+        const SizedBox(height: 16.0),
+        DotsIndicator(currentIndex: currentIndex),
+      ],
     );
   }
 }

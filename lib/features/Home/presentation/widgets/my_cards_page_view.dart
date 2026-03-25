@@ -12,7 +12,10 @@ class MyCardsPageView extends StatelessWidget {
       physics: const BouncingScrollPhysics(),
       scrollDirection: Axis.horizontal,
       children: List.generate(3, (index) {
-        return MyCard();
+        return Padding(
+          padding: const EdgeInsets.only(right: 10.0),
+          child: const MyCard(),
+        );
       }),
     );
   }

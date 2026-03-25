@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:invoicing_dashboard/core/utils/app_images.dart';
 import 'package:invoicing_dashboard/features/Home/data/models/dawar_item_model.dart';
-import 'package:invoicing_dashboard/features/Home/data/models/user_item_model.dart';
+import 'package:invoicing_dashboard/features/Home/data/models/user_model.dart';
 import 'package:invoicing_dashboard/features/Home/presentation/widgets/custom_user_item.dart';
 import 'package:invoicing_dashboard/features/Home/presentation/widgets/dawar_item.dart';
 import 'package:invoicing_dashboard/features/Home/presentation/widgets/dawar_item_list_view.dart';
@@ -19,9 +19,9 @@ class CustomDawar extends StatelessWidget {
           SliverFillRemaining(
             hasScrollBody: false,
             child: Column(
-              children: [
+              children: const [
                 CustomUserItem(
-                  userItemModel: UserItemModel(
+                  userItemModel: UserModel(
                     image: Assets.imagesUserImage1,
                     title: "Lekan Okeowo",
                     subTitle: "demo@gmail.com",
