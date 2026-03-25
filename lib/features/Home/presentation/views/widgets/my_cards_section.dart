@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:invoicing_dashboard/features/Home/presentation/widgets/dots_indicator.dart';
-import 'package:invoicing_dashboard/features/Home/presentation/widgets/my_cards_page_view.dart';
+import 'package:invoicing_dashboard/features/Home/presentation/views/widgets/dots_indicator.dart';
+import 'package:invoicing_dashboard/features/Home/presentation/views/widgets/my_cards_page_view.dart';
 
 class MyCardSection extends StatefulWidget {
   const MyCardSection({super.key});

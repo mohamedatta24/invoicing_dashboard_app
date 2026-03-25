@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:invoicing_dashboard/core/widgets/custom_container.dart';
 import 'package:invoicing_dashboard/core/widgets/custom_divider.dart';
-import 'package:invoicing_dashboard/features/Home/presentation/widgets/latest_transaction.dart';
-import 'package:invoicing_dashboard/features/Home/presentation/widgets/quick_invoice_form.dart';
-import 'package:invoicing_dashboard/features/Home/presentation/widgets/quick_invoice_header.dart';
+import 'package:invoicing_dashboard/features/Home/presentation/views/widgets/latest_transaction.dart';
+import 'package:invoicing_dashboard/features/Home/presentation/views/widgets/quick_invoice_form.dart';
+import 'package:invoicing_dashboard/features/Home/presentation/views/widgets/quick_invoice_header.dart';
 
 class QuickInvoice extends StatelessWidget {
   const QuickInvoice({super.key});

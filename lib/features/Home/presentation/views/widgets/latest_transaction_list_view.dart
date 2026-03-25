@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:invoicing_dashboard/core/utils/app_images.dart';
 import 'package:invoicing_dashboard/features/Home/data/models/user_model.dart';
-import 'package:invoicing_dashboard/features/Home/presentation/widgets/custom_user_item.dart';
+import 'package:invoicing_dashboard/features/Home/presentation/views/widgets/custom_user_item.dart';
 
 class LatestTransactionListView extends StatelessWidget {
   const LatestTransactionListView({super.key});

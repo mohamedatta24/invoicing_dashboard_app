@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:invoicing_dashboard/core/utils/app_images.dart';
 import 'package:invoicing_dashboard/features/Home/data/models/dawar_item_model.dart';
 import 'package:invoicing_dashboard/features/Home/data/models/user_model.dart';
-import 'package:invoicing_dashboard/features/Home/presentation/widgets/custom_user_item.dart';
-import 'package:invoicing_dashboard/features/Home/presentation/widgets/dawar_item.dart';
-import 'package:invoicing_dashboard/features/Home/presentation/widgets/dawar_item_list_view.dart';
+import 'package:invoicing_dashboard/features/Home/presentation/views/widgets/custom_user_item.dart';
+import 'package:invoicing_dashboard/features/Home/presentation/views/widgets/dawar_item.dart';
+import 'package:invoicing_dashboard/features/Home/presentation/views/widgets/dawar_item_list_view.dart';
 
 class CustomDawar extends StatelessWidget {
   const CustomDawar({super.key});

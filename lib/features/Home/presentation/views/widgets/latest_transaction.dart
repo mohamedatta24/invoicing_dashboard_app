@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:invoicing_dashboard/features/Home/presentation/widgets/latest_transaction_list_view.dart';
+import 'package:invoicing_dashboard/features/Home/presentation/views/widgets/latest_transaction_list_view.dart';
 
 class LatestTransaction extends StatelessWidget {
   const LatestTransaction({super.key});

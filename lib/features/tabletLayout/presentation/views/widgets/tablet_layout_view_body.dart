@@ -6,31 +6,38 @@ import 'package:invoicing_dashboard/features/Home/presentation/views/widgets/cus
 import 'package:invoicing_dashboard/features/Home/presentation/views/widgets/my_cards_section.dart';
 import 'package:invoicing_dashboard/features/Home/presentation/views/widgets/transaction_history.dart';
 
-class DesktopLayoutViewBody extends StatelessWidget {
-  const DesktopLayoutViewBody({super.key});
+class TabletLayoutViewBody extends StatelessWidget {
+  const TabletLayoutViewBody({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const Expanded(flex: 1, child: CustomDawar()),
-        const SizedBox(width: 20.0),
-        const Expanded(flex: 2, child: AllExpensesQuickInvoiceSection()),
-        const SizedBox(width: 20.0),
-        const Expanded(
+        Expanded(child: CustomDawar()),
+        SizedBox(width: 20.0),
+        Expanded(
           flex: 2,
-          child: CustomContainer(
+          child: SingleChildScrollView(
             child: Column(
               children: [
-                MyCardSection(),
+                AllExpensesQuickInvoiceSection(),
                 SizedBox(height: 20.0),
-                CustomDivider(),
-                SizedBox(height: 20.0),
-                TransactionHistory(),
+                CustomContainer(
+                  child: Column(
+                    children: [
+                      MyCardSection(),
+                      SizedBox(height: 20.0),
+                      CustomDivider(),
+                      SizedBox(height: 20.0),
+                      TransactionHistory(),
+                    ],
+                  ),
+                ),
               ],
             ),
           ),
         ),
+        SizedBox(width: 20.0),
       ],
     );
   }

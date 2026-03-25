@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:invoicing_dashboard/core/utils/app_images.dart';
 import 'package:invoicing_dashboard/features/Home/data/models/all_expenses_item_model.dart';
-import 'package:invoicing_dashboard/features/Home/presentation/widgets/all_expenses_item.dart';
+import 'package:invoicing_dashboard/features/Home/presentation/views/widgets/all_expenses_item.dart';
 
 class AllExpensesItemListView extends StatefulWidget {
   const AllExpensesItemListView({super.key});

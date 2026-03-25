@@ -1,6 +1,6 @@
 import 'package:expandable_page_view/expandable_page_view.dart';
 import 'package:flutter/material.dart';
-import 'package:invoicing_dashboard/features/Home/presentation/widgets/my_card.dart';
+import 'package:invoicing_dashboard/features/Home/presentation/views/widgets/my_card.dart';
 
 class MyCardsPageView extends StatelessWidget {
   const MyCardsPageView({super.key, required this.controller});

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:invoicing_dashboard/features/Home/data/models/transaction_history_model.dart';
-import 'package:invoicing_dashboard/features/Home/presentation/widgets/transaction_history_item.dart';
+import 'package:invoicing_dashboard/features/Home/presentation/views/widgets/transaction_history_item.dart';
 
 class TransactionHistoryItemListView extends StatelessWidget {
   const TransactionHistoryItemListView({super.key});

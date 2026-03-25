@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:invoicing_dashboard/features/Home/presentation/widgets/custom_dot_indicator.dart';
+import 'package:invoicing_dashboard/features/Home/presentation/views/widgets/custom_dot_indicator.dart';
 
 class DotsIndicator extends StatelessWidget {
   const DotsIndicator({super.key, required this.currentIndex});

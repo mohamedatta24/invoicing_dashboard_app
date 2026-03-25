@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:invoicing_dashboard/features/Home/data/models/all_expenses_item_model.dart';
-import 'package:invoicing_dashboard/features/Home/presentation/widgets/all_expenses_item_details.dart';
+import 'package:invoicing_dashboard/features/Home/presentation/views/widgets/all_expenses_item_details.dart';
 
-import 'package:invoicing_dashboard/features/Home/presentation/widgets/all_expenses_item_header.dart';
+import 'package:invoicing_dashboard/features/Home/presentation/views/widgets/all_expenses_item_header.dart';
 
 class AllExpensesItem extends StatelessWidget {
   const AllExpensesItem({
