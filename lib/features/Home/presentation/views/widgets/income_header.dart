@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class AllExpensesHeader extends StatelessWidget {
-  const AllExpensesHeader({super.key});
+class IncomeHeader extends StatelessWidget {
+  const IncomeHeader({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -9,11 +9,11 @@ class AllExpensesHeader extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
         const Text(
-          "All Expenses",
+          "Income",
           style: TextStyle(
+            color: Color(0xFF064060),
             fontSize: 20.0,
             fontWeight: FontWeight.w600,
-            color: Color(0xff064061),
           ),
         ),
         Container(
@@ -26,6 +26,7 @@ class AllExpensesHeader extends StatelessWidget {
             ),
           ),
           child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               const Text(
                 'Monthly',

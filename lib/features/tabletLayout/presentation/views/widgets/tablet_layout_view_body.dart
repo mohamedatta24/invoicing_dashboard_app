@@ -12,7 +12,7 @@ class TabletLayoutViewBody extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Row(
-      children: [
+      children: const [
         Expanded(child: CustomDawar()),
         SizedBox(width: 20.0),
         Expanded(
@@ -29,7 +29,7 @@ class TabletLayoutViewBody extends StatelessWidget {
                       SizedBox(height: 20.0),
                       CustomDivider(),
                       SizedBox(height: 20.0),
-                      TransactionHistory(),
+                      TransactionHistorySection(),
                     ],
                   ),
                 ),

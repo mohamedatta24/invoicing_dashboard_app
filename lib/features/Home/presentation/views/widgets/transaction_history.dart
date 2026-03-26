@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:invoicing_dashboard/features/Home/presentation/views/widgets/transaction_history_header.dart';
 import 'package:invoicing_dashboard/features/Home/presentation/views/widgets/transaction_history_item_list_view.dart';
 
-class TransactionHistory extends StatelessWidget {
-  const TransactionHistory({super.key});
+class TransactionHistorySection extends StatelessWidget {
+  const TransactionHistorySection({super.key});
 
   @override
   Widget build(BuildContext context) {

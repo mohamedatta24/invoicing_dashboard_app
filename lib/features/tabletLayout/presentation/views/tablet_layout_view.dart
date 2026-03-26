@@ -6,8 +6,6 @@ class TabletLayoutView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(body: const SafeArea(child: TabletLayoutViewBody(
-      
-    )));
+    return Scaffold(body: const SafeArea(child: TabletLayoutViewBody()));
   }
 }
