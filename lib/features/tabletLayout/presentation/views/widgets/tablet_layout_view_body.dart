@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:invoicing_dashboard/core/widgets/custom_container.dart';
-import 'package:invoicing_dashboard/core/widgets/custom_divider.dart';
 import 'package:invoicing_dashboard/features/Home/presentation/views/widgets/all_expenses_quick_invoice_section.dart';
 import 'package:invoicing_dashboard/features/Home/presentation/views/widgets/custom_dawar.dart';
-import 'package:invoicing_dashboard/features/Home/presentation/views/widgets/my_cards_section.dart';
-import 'package:invoicing_dashboard/features/Home/presentation/views/widgets/transaction_history.dart';
+import 'package:invoicing_dashboard/features/Home/presentation/views/widgets/income_section.dart';
+import 'package:invoicing_dashboard/features/Home/presentation/views/widgets/my_card_section_and_transaction_history_section.dart';
 
 class TabletLayoutViewBody extends StatelessWidget {
   const TabletLayoutViewBody({super.key});
@@ -22,17 +20,9 @@ class TabletLayoutViewBody extends StatelessWidget {
               children: [
                 AllExpensesQuickInvoiceSection(),
                 SizedBox(height: 20.0),
-                CustomContainer(
-                  child: Column(
-                    children: [
-                      MyCardSection(),
-                      SizedBox(height: 20.0),
-                      CustomDivider(),
-                      SizedBox(height: 20.0),
-                      TransactionHistorySection(),
-                    ],
-                  ),
-                ),
+                MyCardSectionAndTransactionHistorySection(),
+                SizedBox(height: 20.0),
+                IncomeSection(),
               ],
             ),
           ),

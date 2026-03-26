@@ -12,8 +12,15 @@ class CustomDawar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
+      width: MediaQuery.sizeOf(context).width * 0.5,
       padding: const EdgeInsets.all(20.0),
-      decoration: const BoxDecoration(color: Color(0xffFFFFFF)),
+      decoration: const BoxDecoration(
+        color: Color(0xffFFFFFF),
+        borderRadius: BorderRadius.only(
+          topRight: Radius.circular(16.0),
+          bottomRight: Radius.circular(16.0),
+        ),
+      ),
       child: CustomScrollView(
         slivers: [
           SliverFillRemaining(

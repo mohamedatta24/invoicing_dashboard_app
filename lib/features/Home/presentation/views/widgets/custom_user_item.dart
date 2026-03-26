@@ -9,7 +9,10 @@ class CustomUserItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      decoration: const BoxDecoration(color: Color(0xffFAFAFA)),
+      decoration: BoxDecoration(
+        color: Color(0xffFAFAFA),
+        borderRadius: BorderRadius.circular(7.0),
+      ),
       child: ListTile(
         leading: SvgPicture.asset(userItemModel.image),
         title: Text(
